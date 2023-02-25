@@ -1,4 +1,6 @@
-var a = 10;
-var b = 15;
+var greeting = function(){
 
-document.write(a+b);
+    return "Hello World!";
+}
+
+document.write(greeting());
